@@ -15,6 +15,7 @@ public class App2 {
 
         BookService bookService = (BookService) ctx.getBean("bookService");
         bookService.save();
+        System.out.println("12");
 
     }
 }
