@@ -17,5 +17,6 @@ public class App2 {
         bookService.save();
         System.out.println("12");
 
+        System.out.println("pull test");
     }
 }
